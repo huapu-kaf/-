@@ -1,0 +1,19 @@
+# 核心依赖
+torch>=1.10.0
+numpy>=1.20.0
+gymnasium>=0.28.0
+stable-baselines3>=2.0.0
+pybullet>=3.2.5
+
+# 可视化和监控
+tensorboard>=2.8.0
+matplotlib>=3.5.0
+
+# 开发和测试工具
+pytest>=6.2.5
+black>=21.10b0
+flake8>=3.9.2
+
+# 可选依赖
+ray[rllib]>=2.0.0  # 分布式训练
+wandb>=0.12.0     # 实验追踪 

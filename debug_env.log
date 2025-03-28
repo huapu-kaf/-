@@ -1,0 +1,18 @@
+[21:53:39] 脚本开始执行...
+[21:53:39] Python版本: 3.9.8 (tags/v3.9.8:bb3fdcf, Nov  5 2021, 20:48:33) [MSC v.1929 64 bit (AMD64)]
+[21:53:39] 当前工作目录: C:\Users\86185\Desktop\light
+[21:53:39] 命令行参数: ['c:/Users/86185/Desktop/light/debug_env_test.py']
+[21:53:41] 成功导入AdvancedLaserVehicleEnv
+[21:53:41] 准备创建环境...
+[21:53:41] 环境创建成功
+[21:53:41] 重置环境...
+[21:53:41] 初始观测形状: (160,)
+[21:53:41] 开始执行随机动作...
+[21:53:41] 发生错误: 'NoneType' object has no attribute 'apply_action'
+Traceback (most recent call last):
+  File "c:\Users\86185\Desktop\light\debug_env_test.py", line 57, in run_safe_test
+    obs, reward, terminated, truncated, info = env.step(action)
+  File "c:\Users\86185\Desktop\light\advanced_train.py", line 527, in step
+    self.arena.vehicle.apply_action(action)
+AttributeError: 'NoneType' object has no attribute 'apply_action'
+[21:53:41] 测试失败

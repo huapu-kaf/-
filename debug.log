@@ -1,0 +1,13 @@
+[0.000s] 调试日志开始记录
+[0.000s] Python版本: 3.9.8 (tags/v3.9.8:bb3fdcf, Nov  5 2021, 20:48:33) [MSC v.1929 64 bit (AMD64)]
+[0.001s] 工作目录: C:\Users\86185\Desktop\light
+[0.001s] 命令行参数: ['c:/Users/86185/Desktop/light/debug_tools.py']
+[0.002s] 测试调试日志
+[0.002s] 异常: ZeroDivisionError: division by zero
+[0.003s] 异常跟踪:
+Traceback (most recent call last):
+  File "c:\Users\86185\Desktop\light\debug_tools.py", line 66, in main
+    x = 1 / 0
+ZeroDivisionError: division by zero
+
+[0.003s] 脚本执行完毕
